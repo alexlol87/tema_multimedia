@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Telephone Agenda</title>
+        <link rel="stylesheet" type="text/css" href="agenda-HTML-CSS.css">
+        <link rel="manifest" href="manifest.webmanifest">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <script src="./agenda-HTML-CSS.js">
+
+    </script>
+
+    <body>
+        <h1>Telephone Agenda</h1>
+        <table>
+            <caption>
+                Lista persoane
+            </caption>
+            <thead>
+                <tr>
+                    <th>Nume</th>
+                    <th>Prenume</th>
+                    <th>Telefon</th>
+                    <th>Email</th>
+                    <th>&nbsp;</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody id="persons">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6" id="persons_number">Număr persoane: 2</td>
+                </tr>
+            </tfoot>
+        </table>
+        <form action="#" class="controls">
+            <label for="nume">Nume:</label>
+            <input type="text" name="nume" id="nume">
+
+            <label for="prenume">Prenume:</label>
+            <input type="text" name="prenume" id="prenume">
+
+            <label for="Telefon">Telefon:</label>
+            <input type="text" name="telefon" id="telefon">
+
+            <label for="Email">Email:</label>
+            <input type="text" name="Email" id="Email">
+
+            <button type="submit" id="btnAdauga" name="btnAdauga">Adauga</button>
+
+            <button type="submit" id="btnModifica" name="btnModifica">Salveaza Modificari</button>
+        </form>
+
+    </body>
+
+</html>
